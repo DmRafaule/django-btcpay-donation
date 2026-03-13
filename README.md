@@ -23,6 +23,15 @@ Requirements:
 ## Configuration
 1. Update settings.py
 
+    Add the app label to your INSTALLED_APPS list to enable app:
+    ```Python
+    INSTALLED_APPS = [
+        ...,
+        'django_btcpay_donation.apps.BtcpaydonationConfig',
+        ...,
+    ]
+    ```
+
     Add the middleware to your MIDDLEWARE list to enable template context injection:
     ```Python
     MIDDLEWARE = [

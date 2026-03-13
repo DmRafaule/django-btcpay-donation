@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 [project]
 name = "django-btcpay-donation"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Tim The Webmaster", email="timachuduk@gmail.com" },
 ]
